@@ -635,7 +635,7 @@ function Navbar({ activeSection }: { activeSection: string }) {
           <img
             src="/assets/generated/ramsung-logo-transparent.dim_400x120.png"
             alt="Ramsung"
-            className="h-10 object-contain"
+            className="h-12 object-contain"
           />
         </button>
         <nav
@@ -1053,11 +1053,9 @@ function RamsungApp() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
-              <img
-                src="/assets/generated/ramsung-logo-transparent.dim_400x120.png"
-                alt="Ramsung"
-                className="h-10 mb-3 brightness-200"
-              />
+              <div className="text-2xl font-display font-bold text-white tracking-wide mb-3">
+                RAMSUNG
+              </div>
               <p className="text-white/60 text-sm leading-relaxed max-w-sm">
                 Smarter Living Starts Here. Bringing world-class electronics and
                 home appliances to every Indian home since 2005.
